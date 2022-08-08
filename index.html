@@ -11,22 +11,22 @@
     <title>Puffy</title>
 </head>
 <body>
-    <section class="banner">
+    <section class="section-padding banner">
         <div class="banner__content">
             <p class="banner__content__title">The Puffy Better Sleep Survey</p>
             <p class="banner__content__desp">
                 We believe better sleep is the key to living a happier and healthier life. 
-                And<br>we're on a mission to help you get the sleep you've always dreamed of.
+                And we're on a mission to help you get the sleep you've always dreamed of.
             </p>
             <button class="btn btn-primary">View Results</button>
         </div>
     </section>
 
-    <section class="sleep">
+    <section class="section-padding sleep">
         <div class="container">
             <p class="sleep__title">State Of Sleep In The Past 6 Months</p>
-            <div class="row-container">
-                <div class="row-col col-seven">
+            <div class="sleep__columns">
+                <div class="col">
                     <p class="text text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Hic inventore porro error nulla est excepturi placeat beatae sint sit ab veniam laborum non quos, 
@@ -39,6 +39,13 @@
                         nostrum asperiores mollitia iusto eius similique.
                     </p>
                     <div class="sleep__survey">
+                        <div class="sleep__survey__item">
+                            <label for=""></label>
+                            <div class="progres-labels">
+                                <span class="male">Male</span>
+                                <span class="female">Female</span>
+                            </div>
+                        </div>
                         <div class="sleep__survey__item">
                             <label>Average Hours Sleep</label>
                             <div class="progress">
@@ -81,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row-col col-five">
+                <div class="col">
                     <div class="img_container">
                         <img src="assets/images/generals/Male Female.png" alt="">
                     </div>
@@ -89,5 +96,99 @@
             </div>
         </div>
     </section>
+    <section class="section-separator"></section>
+    <section class="section-padding compare">
+        <div class="container">
+            <p class="compare__title">State Of Sleep In The Past 6 Months</p>
+            
+            <div class="compare__columns mattress__types">
+                <div class="col">
+                    <p class="compare__mattress__title">The Puffy Mattress</p>
+                    <p class="text">
+                        The Original Puffy Mattress. Experience the award-winning Puffy Mattress that provides you with the perfect level of comport and support.
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="compare__mattress__title">The Puffy Lux Mattress</p>
+                    <p class="text">
+                        Experience luxurious comfort with the Puffy Lux Mattress and its exclusive layer of Body Adapting Dual Cloud Foam. Feel its balanced support and ultimate relaxation for a lifetime.
+                    </p>
+                </div>
+            </div>
+
+            <div class="compare__columns mattress__layers">
+                <div class="col mattress__layers__types puffy-mattres">
+                    <div class="layers first-layer">
+                        <img src="assets/images/layers/1st.png" alt="">
+                    </div>
+                    <div class="layers second-layer">
+                        <img src="assets/images/layers/3rd.png" alt="">
+                    </div>
+                    <div class="layers third-layer">
+                        <img src="assets/images/layers/4th.png" alt="">
+                    </div>
+                </div>
+                <div class="col mattress__layers__types puffy-lux-mattres">
+                    <div class="layers first-layer">
+                        <img src="assets/images/layers/1st.png" alt="">
+                    </div>
+                    <div class="layers second-layer">
+                        <img src="assets/images/layers/2nd.png" alt="">
+                    </div>
+                    <div class="layers third-layer">
+                        <img src="assets/images/layers/3rd.png" alt="">
+                    </div>
+                    <div class="layers fourth-layer">
+                        <img src="assets/images/layers/4th.png" alt="" usemap="#image-map">
+                        <map name="image-map">
+                            <area target="_blank" alt="Xamad" title="Xamad" href="https://codepen.io/rpsthecoder/pen/PqZNzG" coords="730,1065,730,1235,1443,1238,1429,1057" shape="poly">
+                        </map>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compare__columns mattress__prices">
+                <div class="col">
+                        <div class="mattress__prices__compare">
+                            <div>
+                                <p class="text">From <del>$795</del></p>
+                                <p class="price">$495</p>
+                            </div>
+                            <div class="or">
+                                <div class="line"></div>
+                                <p class="text word">or</p>
+                            </div>
+                            <div>
+                                <p class="text">Pay as low as</p>
+                                <p class="price">$25 / mo</p>
+                                <p class="text">with <span class="klarna">Klarna</span></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Show Now</button>
+                </div>
+                <div class="col">
+                    <div class="mattress__prices__compare">
+                        <div>
+                            <p class="text">From <del>$1,645</del></p>
+                            <p class="price">$1,345</p>
+                        </div>
+                        <div class="or">
+                            <div class="line"></div>
+                            <p class="text word">or</p>
+                        </div>
+                        <div>
+                            <p class="text">Pay as low as</p>
+                            <p class="price">$27 / mo</p>
+                            <p class="text">with <span class="klarna">Klarna</span></p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Show Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+
 </body>
 </html>
