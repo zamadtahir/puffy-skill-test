@@ -247,11 +247,13 @@ body :where(h1, h2, h3, h4, h5, h6, p) {
             display: flex;
             align-items: center;
             gap: 10px;
+
             @media (max-width:600px) {
               left: 10px;
               bottom: 10px;
               gap: 5px;
             }
+
             .popover__action {
               width: 14px;
               height: 14px;
@@ -277,18 +279,21 @@ body :where(h1, h2, h3, h4, h5, h6, p) {
 
               }
             }
+
             .popover__content {
-              
+
               border-radius: 6px;
               background: rgb(255 255 255 / 75%);
               max-width: 160px;
               overflow: hidden;
-              .exclusive{
+
+              .exclusive {
                 background: $theme-color;
                 color: #fff;
                 font-size: 8px;
                 text-align: center;
               }
+
               .title {
                 font-size: 15px;
                 color: $theme-color;
@@ -296,6 +301,7 @@ body :where(h1, h2, h3, h4, h5, h6, p) {
                 white-space: nowrap;
                 line-height: 1;
                 padding: 5px 10px;
+
                 sup {
                   font-size: 8px;
                   margin-left: 2px;
@@ -313,9 +319,11 @@ body :where(h1, h2, h3, h4, h5, h6, p) {
 
               @media (max-width:600px) {
                 max-width: fit-content;
+
                 .title {
                   font-size: 8px;
                   padding: 2px 8px;
+
                   sup {
                     font-size: 4px;
                     margin-left: 2px;
@@ -331,22 +339,25 @@ body :where(h1, h2, h3, h4, h5, h6, p) {
             bottom: 145px;
             z-index: 3;
           }
+
           .second-layer {
             bottom: 80px;
             z-index: 2;
           }
+
           .third-layer {
             bottom: 0;
             z-index: 1;
           }
+
           @media (max-width:600px) {
-            .popover{
+            .popover {
               right: 10px;
               left: auto;
               flex-direction: row-reverse;
             }
           }
-          
+
           @media (max-width:600px) {
             position: relative;
             left: -60px;
